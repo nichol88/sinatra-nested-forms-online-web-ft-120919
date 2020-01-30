@@ -2,7 +2,7 @@ class Pirate
   attr_accessor :name, :weight, :height
   @@all = []
 
-  def initialize(params)
+  def initialize(:name, :weight, :height)
     @name = params[:name]
     @weight = params[:weight]
     @height = params[:height]
