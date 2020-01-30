@@ -2,7 +2,7 @@ class Ship
   attr_accessor :name, :type, :booty
   @@all = []
 
-  def initialize(params)
+  def initialize(name:, type:, booty:)
     @name = params[:name]
     @type = params[:type]
     @booty = params[:booty]
